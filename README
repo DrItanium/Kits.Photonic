@@ -6,3 +6,7 @@ harder than it seems because there is always the possibility that an improper
 command will cause libraries in different application domains to be loaded in
 other application domains. This is not a good thing if things like reloadable
 plugins are a desirable feature.
+
+
+Currently, the plan is to provide a set of functions that will make dealing
+with the creation of application domains far easier.
